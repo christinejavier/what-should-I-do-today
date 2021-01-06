@@ -1,0 +1,23 @@
+{
+  "name": "whatshouldidotoday",
+  "version": "1.0.0",
+  "description": "A customized To Do app for a procrastinator like me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server/index.js",
+    "client": "cd client && npm run start",
+    "build:client": "cd client && npm run build",
+    "iall": "npm i && cd client && npm i",
+    "start": "npm run serve & npm run client"
+  },
+  "author": "Christine Javier",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0"
+  }
+}
